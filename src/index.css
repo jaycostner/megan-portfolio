@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.logo h2{
+    font-family: 'Oswald';
+}
+
+/*showcase */
+
+.showcase{
+    height:100vh;
+    background:url('./components/bgi.jpeg') no-repeat center/cover;
+}
+
+.showcase .overlay{
+    height:100vh;
+    background-color: rgba(0,0,0,0.8);
+}
